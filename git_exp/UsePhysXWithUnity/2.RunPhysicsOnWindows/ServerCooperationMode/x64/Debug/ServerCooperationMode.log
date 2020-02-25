@@ -1,0 +1,46 @@
+﻿生成启动时间为 2020/2/25 9:47:54。
+     1>项目“D:\2020\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\ServerCooperationMode\ServerCooperationMode.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D _SCL_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt ..\ProtoGeneratedScrips\Scene.pb.cc main.cpp physics_scene_camera.cpp physics_scene_manager.cpp physics_scene_render.cpp server_cooperation_render.cpp
+         server_cooperation_render.cpp
+     1>d:\2020\git_exp\usephysxwithunity\2.runphysicsonwindows\servercooperationmode\physics_scene_render.h(10): fatal error C1083: 无法打开包括文件: “GL/glut.h”: No such file or directory
+         physics_scene_render.cpp
+     1>d:\2020\git_exp\usephysxwithunity\2.runphysicsonwindows\servercooperationmode\physics_scene_render.h(10): fatal error C1083: 无法打开包括文件: “GL/glut.h”: No such file or directory
+         physics_scene_manager.cpp
+     1>physics_scene_manager.cpp(14): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>physics_scene_manager.cpp(150): warning C4244: “-=”: 从“float”转换到“int”，可能丢失数据
+     1>physics_scene_manager.cpp(150): warning C4244: “参数”: 从“int”转换到“physx::PxReal”，可能丢失数据
+     1>physics_scene_manager.cpp(165): warning C4244: “参数”: 从“double”转换到“physx::PxReal”，可能丢失数据
+     1>physics_scene_manager.cpp(237): warning C4018: “<”: 有符号/无符号不匹配
+     1>physics_scene_manager.cpp(239): warning C4018: “<”: 有符号/无符号不匹配
+     1>physics_scene_manager.cpp(271): warning C4244: “参数”: 从“double”转换到“physx::PxReal”，可能丢失数据
+     1>physics_scene_manager.cpp(274): warning C4244: “参数”: 从“double”转换到“physx::PxReal”，可能丢失数据
+     1>physics_scene_manager.cpp(292): warning C4244: “参数”: 从“double”转换到“physx::PxReal”，可能丢失数据
+     1>physics_scene_manager.cpp(294): warning C4244: “参数”: 从“double”转换到“physx::PxReal”，可能丢失数据
+     1>physics_scene_manager.cpp(313): warning C4244: “参数”: 从“double”转换到“physx::PxReal”，可能丢失数据
+     1>physics_scene_manager.cpp(314): warning C4244: “参数”: 从“double”转换到“physx::PxReal”，可能丢失数据
+     1>physics_scene_manager.cpp(339): warning C4244: “参数”: 从“double”转换到“physx::PxReal”，可能丢失数据
+     1>physics_scene_manager.cpp(395): warning C4244: “-=”: 从“float”转换到“int”，可能丢失数据
+     1>physics_scene_manager.cpp(395): warning C4244: “参数”: 从“int”转换到“physx::PxReal”，可能丢失数据
+     1>physics_scene_manager.cpp(398): warning C4305: “参数”: 从“double”到“physx::PxF32”截断
+     1>physics_scene_manager.cpp(399): warning C4305: “参数”: 从“double”到“physx::PxF32”截断
+         physics_scene_camera.cpp
+         main.cpp
+         Scene.pb.cc
+     1>D:\2020\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\IncludeLib\Protobuf\include\google/protobuf/io/coded_stream.h(977): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+     1>D:\2020\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\IncludeLib\Protobuf\include\google/protobuf/io/coded_stream.h(1162): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>D:\2020\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\IncludeLib\Protobuf\include\google/protobuf/wire_format_lite_inl.h(822): warning C4267: “参数”: 从“size_t”转换到“google::protobuf::uint32”，可能丢失数据
+     1>D:\2020\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\IncludeLib\Protobuf\include\google/protobuf/wire_format_lite_inl.h(823): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>D:\2020\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\IncludeLib\Protobuf\include\google/protobuf/wire_format_lite_inl.h(826): warning C4267: “参数”: 从“size_t”转换到“google::protobuf::uint32”，可能丢失数据
+     1>D:\2020\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\IncludeLib\Protobuf\include\google/protobuf/wire_format_lite_inl.h(827): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\ProtoGeneratedScrips\Scene.pb.cc(1084): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\ProtoGeneratedScrips\Scene.pb.cc(1183): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\ProtoGeneratedScrips\Scene.pb.cc(1232): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>D:\2020\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\IncludeLib\Protobuf\include\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 D:\2020\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\IncludeLib\Protobuf\include\google/protobuf/wire_format_lite_inl.h(413): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::uint32,TYPE_FIXED32>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<google::protobuf::uint32> *)”的引用
+         正在生成代码...
+     1>已完成生成项目“D:\2020\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\ServerCooperationMode\ServerCooperationMode.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:08.98
