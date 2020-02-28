@@ -1,11 +1,9 @@
-﻿生成启动时间为 2020/2/25 9:47:54。
-     1>项目“D:\2020\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\ServerCooperationMode\ServerCooperationMode.vcxproj”在节点 2 上(Build 个目标)。
+﻿生成启动时间为 2020/2/26 17:42:09。
+     1>项目“D:\2020\3d_physx\u3d_physx\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\ServerCooperationMode\ServerCooperationMode.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
          D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D _SCL_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt ..\ProtoGeneratedScrips\Scene.pb.cc main.cpp physics_scene_camera.cpp physics_scene_manager.cpp physics_scene_render.cpp server_cooperation_render.cpp
          server_cooperation_render.cpp
-     1>d:\2020\git_exp\usephysxwithunity\2.runphysicsonwindows\servercooperationmode\physics_scene_render.h(10): fatal error C1083: 无法打开包括文件: “GL/glut.h”: No such file or directory
          physics_scene_render.cpp
-     1>d:\2020\git_exp\usephysxwithunity\2.runphysicsonwindows\servercooperationmode\physics_scene_render.h(10): fatal error C1083: 无法打开包括文件: “GL/glut.h”: No such file or directory
          physics_scene_manager.cpp
      1>physics_scene_manager.cpp(14): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
      1>physics_scene_manager.cpp(150): warning C4244: “-=”: 从“float”转换到“int”，可能丢失数据
@@ -27,20 +25,77 @@
          physics_scene_camera.cpp
          main.cpp
          Scene.pb.cc
-     1>D:\2020\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\IncludeLib\Protobuf\include\google/protobuf/io/coded_stream.h(977): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
-     1>D:\2020\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\IncludeLib\Protobuf\include\google/protobuf/io/coded_stream.h(1162): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
-     1>D:\2020\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\IncludeLib\Protobuf\include\google/protobuf/wire_format_lite_inl.h(822): warning C4267: “参数”: 从“size_t”转换到“google::protobuf::uint32”，可能丢失数据
-     1>D:\2020\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\IncludeLib\Protobuf\include\google/protobuf/wire_format_lite_inl.h(823): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
-     1>D:\2020\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\IncludeLib\Protobuf\include\google/protobuf/wire_format_lite_inl.h(826): warning C4267: “参数”: 从“size_t”转换到“google::protobuf::uint32”，可能丢失数据
-     1>D:\2020\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\IncludeLib\Protobuf\include\google/protobuf/wire_format_lite_inl.h(827): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>D:\2020\3d_physx\u3d_physx\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\IncludeLib\Protobuf\include\google/protobuf/io/coded_stream.h(977): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+     1>D:\2020\3d_physx\u3d_physx\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\IncludeLib\Protobuf\include\google/protobuf/io/coded_stream.h(1162): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>D:\2020\3d_physx\u3d_physx\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\IncludeLib\Protobuf\include\google/protobuf/wire_format_lite_inl.h(822): warning C4267: “参数”: 从“size_t”转换到“google::protobuf::uint32”，可能丢失数据
+     1>D:\2020\3d_physx\u3d_physx\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\IncludeLib\Protobuf\include\google/protobuf/wire_format_lite_inl.h(823): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>D:\2020\3d_physx\u3d_physx\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\IncludeLib\Protobuf\include\google/protobuf/wire_format_lite_inl.h(826): warning C4267: “参数”: 从“size_t”转换到“google::protobuf::uint32”，可能丢失数据
+     1>D:\2020\3d_physx\u3d_physx\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\IncludeLib\Protobuf\include\google/protobuf/wire_format_lite_inl.h(827): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
      1>..\ProtoGeneratedScrips\Scene.pb.cc(1084): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
      1>..\ProtoGeneratedScrips\Scene.pb.cc(1183): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
      1>..\ProtoGeneratedScrips\Scene.pb.cc(1232): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
-     1>D:\2020\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\IncludeLib\Protobuf\include\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
-                 D:\2020\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\IncludeLib\Protobuf\include\google/protobuf/wire_format_lite_inl.h(413): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::uint32,TYPE_FIXED32>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<google::protobuf::uint32> *)”的引用
+     1>D:\2020\3d_physx\u3d_physx\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\IncludeLib\Protobuf\include\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 D:\2020\3d_physx\u3d_physx\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\IncludeLib\Protobuf\include\google/protobuf/wire_format_lite_inl.h(413): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::uint32,TYPE_FIXED32>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<google::protobuf::uint32> *)”的引用
          正在生成代码...
-     1>已完成生成项目“D:\2020\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\ServerCooperationMode\ServerCooperationMode.vcxproj”(Build 个目标)的操作 - 失败。
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\2020\3d_physx\u3d_physx\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\x64\Debug\ServerCooperationMode.exe" /INCREMENTAL /NOLOGO PhysX3DEBUG_x64.lib PhysX3CommonDEBUG_x64.lib PhysX3CookingDEBUG_x64.lib PhysXProfileSDKDEBUG.lib PhysX3ExtensionsDEBUG.lib PhysXVisualDebuggerSDKDEBUG.lib libprotobuf.lib PhysX3CharacterKinematicDEBUG_x64.lib PxToolkitDEBUG.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\2020\3d_physx\u3d_physx\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\x64\Debug\ServerCooperationMode.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\2020\3d_physx\u3d_physx\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\x64\Debug\ServerCooperationMode.lib" /MACHINE:X64 x64\Debug\Scene.pb.obj
+         x64\Debug\main.obj
+         x64\Debug\physics_scene_camera.obj
+         x64\Debug\physics_scene_manager.obj
+         x64\Debug\physics_scene_render.obj
+         x64\Debug\server_cooperation_render.obj
+     1>libprotobuf.lib(coded_stream.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(coded_stream.obj)”或在“D:\2020\3d_physx\u3d_physx\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\x64\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(common.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(common.obj)”或在“D:\2020\3d_physx\u3d_physx\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\x64\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(descriptor.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(descriptor.obj)”或在“D:\2020\3d_physx\u3d_physx\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\x64\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(descriptor.pb.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(descriptor.pb.obj)”或在“D:\2020\3d_physx\u3d_physx\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\x64\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(descriptor_database.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(descriptor_database.obj)”或在“D:\2020\3d_physx\u3d_physx\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\x64\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(dynamic_message.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(dynamic_message.obj)”或在“D:\2020\3d_physx\u3d_physx\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\x64\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(extension_set.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(extension_set.obj)”或在“D:\2020\3d_physx\u3d_physx\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\x64\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(extension_set_heavy.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(extension_set_heavy.obj)”或在“D:\2020\3d_physx\u3d_physx\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\x64\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(generated_message_reflection.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(generated_message_reflection.obj)”或在“D:\2020\3d_physx\u3d_physx\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\x64\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(generated_message_util.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(generated_message_util.obj)”或在“D:\2020\3d_physx\u3d_physx\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\x64\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(strtod.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(strtod.obj)”或在“D:\2020\3d_physx\u3d_physx\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\x64\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(message.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(message.obj)”或在“D:\2020\3d_physx\u3d_physx\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\x64\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(message_lite.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(message_lite.obj)”或在“D:\2020\3d_physx\u3d_physx\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\x64\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(once.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(once.obj)”或在“D:\2020\3d_physx\u3d_physx\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\x64\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(atomicops_internals_x86_msvc.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(atomicops_internals_x86_msvc.obj)”或在“D:\2020\3d_physx\u3d_physx\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\x64\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(reflection_ops.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(reflection_ops.obj)”或在“D:\2020\3d_physx\u3d_physx\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\x64\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(repeated_field.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(repeated_field.obj)”或在“D:\2020\3d_physx\u3d_physx\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\x64\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(structurally_valid.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(structurally_valid.obj)”或在“D:\2020\3d_physx\u3d_physx\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\x64\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(strutil.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(strutil.obj)”或在“D:\2020\3d_physx\u3d_physx\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\x64\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(substitute.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(substitute.obj)”或在“D:\2020\3d_physx\u3d_physx\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\x64\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(text_format.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(text_format.obj)”或在“D:\2020\3d_physx\u3d_physx\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\x64\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(tokenizer.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(tokenizer.obj)”或在“D:\2020\3d_physx\u3d_physx\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\x64\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(unknown_field_set.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(unknown_field_set.obj)”或在“D:\2020\3d_physx\u3d_physx\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\x64\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(wire_format.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(wire_format.obj)”或在“D:\2020\3d_physx\u3d_physx\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\x64\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(wire_format_lite.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(wire_format_lite.obj)”或在“D:\2020\3d_physx\u3d_physx\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\x64\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(zero_copy_stream.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(zero_copy_stream.obj)”或在“D:\2020\3d_physx\u3d_physx\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\x64\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(zero_copy_stream_impl.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(zero_copy_stream_impl.obj)”或在“D:\2020\3d_physx\u3d_physx\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\x64\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(zero_copy_stream_impl_lite.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(zero_copy_stream_impl_lite.obj)”或在“D:\2020\3d_physx\u3d_physx\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\x64\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(stringprintf.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“libprotobuf.lib(stringprintf.obj)”或在“D:\2020\3d_physx\u3d_physx\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\x64\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         ServerCooperationMode.vcxproj -> D:\2020\3d_physx\u3d_physx\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\x64\Debug\ServerCooperationMode.exe
+       PostBuildEvent:
+         copy  ..\bin\*.* D:\2020\3d_physx\u3d_physx\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\x64\Debug\
+         :VCEnd
+         ..\bin\freeglut.dll
+         ..\bin\glut32.dll
+         ..\bin\nvToolsExt64_1.dll
+         ..\bin\PhysX3CharacterKinematicDEBUG_x64.dll
+         ..\bin\PhysX3CharacterKinematic_x64.dll
+         ..\bin\PhysX3CommonDEBUG_x64.dll
+         ..\bin\PhysX3Common_x64.dll
+         ..\bin\PhysX3CookingDEBUG_x64.dll
+         ..\bin\PhysX3Cooking_x64.dll
+         ..\bin\PhysX3DEBUG_x64.dll
+         ..\bin\PhysX3GpuCHECKED_x64.dll
+         ..\bin\PhysX3GpuDEBUG_x64.dll
+         ..\bin\PhysX3GpuPROFILE_x64.dll
+         ..\bin\PhysX3Gpu_x64.dll
+         ..\bin\PhysX3_x64.dll
+         ..\bin\PhysXDevice64.dll
+         已复制        16 个文件。
+     1>已完成生成项目“D:\2020\3d_physx\u3d_physx\git_exp\UsePhysXWithUnity\2.RunPhysicsOnWindows\ServerCooperationMode\ServerCooperationMode.vcxproj”(Build 个目标)的操作。
 
-生成失败。
+生成成功。
 
-已用时间 00:00:08.98
+已用时间 00:00:07.07
