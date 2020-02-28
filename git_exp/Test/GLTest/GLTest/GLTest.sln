@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GLTest", "GLTest\GLTest.vcxproj", "{7AF98A1C-45B5-46FE-9BE0-54DD26FBCF68}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SnippetRender", "SnippetRender\SnippetRender.vcxproj", "{1D4996CE-E873-4E12-A2F4-3464313AC10C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -15,6 +17,10 @@ Global
 		{7AF98A1C-45B5-46FE-9BE0-54DD26FBCF68}.Debug|Win32.Build.0 = Debug|Win32
 		{7AF98A1C-45B5-46FE-9BE0-54DD26FBCF68}.Release|Win32.ActiveCfg = Release|Win32
 		{7AF98A1C-45B5-46FE-9BE0-54DD26FBCF68}.Release|Win32.Build.0 = Release|Win32
+		{1D4996CE-E873-4E12-A2F4-3464313AC10C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1D4996CE-E873-4E12-A2F4-3464313AC10C}.Debug|Win32.Build.0 = Debug|Win32
+		{1D4996CE-E873-4E12-A2F4-3464313AC10C}.Release|Win32.ActiveCfg = Release|Win32
+		{1D4996CE-E873-4E12-A2F4-3464313AC10C}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
